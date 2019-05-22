@@ -4,7 +4,7 @@
 
 > [See Changes](https://github.com/placeposition/alpaka-presence/compare/v1.0.1...master)
 
-* No Changes
+* **UPDATED** Readme
 
 ## v1.0.1 (May 22, 2019)
 

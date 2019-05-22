@@ -43,12 +43,12 @@ Gets the appropriate user-agent string to use with Alpaka services.
 
 ```js
 const userAgentString = await UserAgent.getUserAgentAsync(); 
-// "Alpaka Punch; 1.0.0; b.17; en-GB; (Apple; iOS; 12.1; Handheld; iPhone(12,1))"
+// "Alpaka Punch; 1.0.0; b.17; en-GB; (Apple; iOS; 12.1; Handset; iPhone10,6)"
 ```
 
 ```js
 UserAgent.getUserAgentAsync().then((userAgentString) => {
-    // "Alpaka Punch; 1.0.0; b.17; en-GB; (Apple; iOS; 12.1; Handheld; iPhone(12,1))"
+    // "Alpaka Punch; 1.0.0; b.17; en-GB; (Apple; iOS; 12.1; Handset; iPhone10,6)"
 });
 ```
 
