@@ -1,6 +1,6 @@
 {
   "name": "@alpakaio/alpaka-native-useragent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "User Agent builder used by Alpaka React Native apps",
   "main": "useragent.js",
   "private": false,

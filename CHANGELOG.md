@@ -2,7 +2,13 @@
 
 ## HEAD
 
-> [See Changes](https://github.com/placeposition/alpaka-presence/compare/v1.0.0...master)
+> [See Changes](https://github.com/placeposition/alpaka-presence/compare/v1.0.1...master)
+
+* No Changes
+
+## v1.0.1 (May 22, 2019)
+
+> [See Changes](https://github.com/placeposition/alpaka-presence/compare/v1.0.0...v1.0.1)
 
 * **UPDATED** Readme
 * **UPDATED** Package.json so package would be public
