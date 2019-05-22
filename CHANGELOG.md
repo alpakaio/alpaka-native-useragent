@@ -4,7 +4,8 @@
 
 > [See Changes](https://github.com/placeposition/alpaka-presence/compare/v1.0.0...master)
 
-* No Changes
+* **UPDATED** Readme
+* **UPDATED** Package.json so package would be public
 
 ## v1.0.0 (May 22, 2019)
 

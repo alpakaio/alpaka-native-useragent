@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "User Agent builder used by Alpaka React Native apps",
   "main": "useragent.js",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"flow-check": "npx flow check-contents < useragent.js.flow",
+    "ts-check": "npx tsc useragent.d.ts --noEmit"
   },
   "repository": {
     "type": "git",
@@ -39,9 +42,5 @@
   "peerDependencies": {
 	  "react-native-device-info": "^2.0.0"
   },
-  "typings": "./useragent.d.ts",
-  "scripts": {
-	"flow-check": "npx flow check-contents < useragent.js.flow",
-    "ts-check": "npx tsc useragent.d.ts --noEmit"
-  }
+  "typings": "./useragent.d.ts"
 }

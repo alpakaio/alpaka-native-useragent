@@ -1,6 +1,6 @@
 # alpaka-native-useragent
 
-[![npm version](https://badge.fury.io/js/@alpakaio/alpaka-native-useragent.svg)](http://badge.fury.io/js/@alpakaio/alpaka-native-useragent)
+[![npm version](https://badge.fury.io/js/%40alpakaio%2Falpaka-native-useragent.svg)](https://badge.fury.io/js/%40alpakaio%2Falpaka-native-useragent)
 
 User Agent builder used by [Alpaka](https://www.alpaka.io) [React Native](https://github.com/facebook/react-native) apps.
 
