@@ -1,0 +1,47 @@
+{
+  "name": "@alpakaio/alpaka-native-useragent",
+  "version": "1.0.0",
+  "description": "User Agent builder used by Alpaka React Native apps",
+  "main": "useragent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpakaio/alpaka-native-useragent.git"
+  },
+  "author": {
+	"name": "Victoria French",
+    "email": "victoria.french@cinecove.com",
+    "url": "https://github.com/victoriafrench"
+  },
+  "contributors": [
+	{
+		"name": "Victoria French",
+		"email": "victoria.french@cinecove.com",
+		"url": "https://github.com/victoriafrench"
+	}
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpakaio/alpaka-native-useragent/issues"
+  },
+  "homepage": "https://github.com/alpakaio/alpaka-native-useragent#readme",
+  "keywords": [
+	"react-native",
+    "ios",
+    "android",
+	"windows",
+	"tvos",
+	"device",
+	"alpaka"
+  ],
+  "peerDependencies": {
+	  "react-native-device-info": "^2.0.0"
+  },
+  "typings": "./useragent.d.ts",
+  "scripts": {
+	"flow-check": "npx flow check-contents < useragent.js.flow",
+    "ts-check": "npx tsc useragent.d.ts --noEmit"
+  }
+}
