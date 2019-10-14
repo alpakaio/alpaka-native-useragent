@@ -5,8 +5,8 @@
   "main": "useragent.js",
   "private": false,
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"flow-check": "npx flow check-contents < useragent.js.flow",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow-check": "npx flow check-contents < useragent.js.flow",
     "ts-check": "npx tsc useragent.d.ts --noEmit"
   },
   "repository": {
@@ -14,16 +14,16 @@
     "url": "git+https://github.com/alpakaio/alpaka-native-useragent.git"
   },
   "author": {
-	"name": "Victoria French",
+    "name": "Victoria French",
     "email": "victoria.french@cinecove.com",
     "url": "https://github.com/victoriafrench"
   },
   "contributors": [
-	{
-		"name": "Victoria French",
-		"email": "victoria.french@cinecove.com",
-		"url": "https://github.com/victoriafrench"
-	}
+    {
+      "name": "Victoria French",
+      "email": "victoria.french@cinecove.com",
+      "url": "https://github.com/victoriafrench"
+    }
   ],
   "license": "MIT",
   "bugs": {
@@ -31,16 +31,16 @@
   },
   "homepage": "https://github.com/alpakaio/alpaka-native-useragent#readme",
   "keywords": [
-	"react-native",
+    "react-native",
     "ios",
     "android",
-	"windows",
-	"tvos",
-	"device",
-	"alpaka"
+    "windows",
+    "tvos",
+    "device",
+    "alpaka"
   ],
   "peerDependencies": {
-	  "react-native-device-info": "^2.0.0"
+    "react-native-device-info": "^4"
   },
   "typings": "./useragent.d.ts"
 }
