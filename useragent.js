@@ -11,7 +11,7 @@ export default {
 			if (Platform.OS === 'web' || Platform.OS === 'dom') {
 				state.userAgent = DeviceInfo.getUserAgent();
 			} else {
-				state.userAgent = `${DeviceInfo.getApplicationName()}; ${DeviceInfo.getVersion()}; b.${DeviceInfo.getBuildNumber()}; ${DeviceInfo.getDeviceLocale()}; (${DeviceInfo.getBrand()}; ${DeviceInfo.getSystemName()}; ${DeviceInfo.getSystemVersion()}; ${DeviceInfo.getDeviceType()}; ${DeviceInfo.getDeviceId()})`;
+				state.userAgent = `${DeviceInfo.getApplicationName()}; ${DeviceInfo.getVersion()}; b.${DeviceInfo.getBuildNumber()}; tbd; (${DeviceInfo.getBrand()}; ${DeviceInfo.getSystemName()}; ${DeviceInfo.getSystemVersion()}; ${DeviceInfo.getDeviceType()}; ${DeviceInfo.getDeviceId()})`;
 			}
 		}
 		return state.userAgent;
